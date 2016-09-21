@@ -31,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        if(BuildConfig.DEBUG)
+        {
+            CleverTapAPI.changeCredentials("TEST-98W-948-K74Z", "TEST-b4c-0bc");
+        }
+
         //Test credentials
         //Must be called before super.onCreate()
         /*CleverTapAPI.changeCredentials("TEST-98W-948-K74Z", "TEST-b4c-0bc");

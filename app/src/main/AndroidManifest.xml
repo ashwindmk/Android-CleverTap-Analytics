@@ -62,20 +62,20 @@
             android:value="SplashActivity1, SplashActivity2"/>
 
         <!--PRODUCTION-->
-        <!--<meta-data
+        <meta-data
             android:name="CLEVERTAP_ACCOUNT_ID"
             android:value="88W-948-K74Z"/>;
         <meta-data
             android:name="CLEVERTAP_TOKEN"
-            android:value="b4c-0bb"/>-->
+            android:value="b4c-0bb"/>
 
         <!--TESTING-->
-        <meta-data
+        <!--<meta-data
             android:name="CLEVERTAP_ACCOUNT_ID"
             android:value="TEST-98W-948-K74Z"/>;
         <meta-data
             android:name="CLEVERTAP_TOKEN"
-            android:value="TEST-b4c-0bc"/>
+            android:value="TEST-b4c-0bc"/>-->
 
     </application>
 
