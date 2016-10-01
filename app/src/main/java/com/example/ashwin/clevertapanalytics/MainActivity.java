@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(BuildConfig.DEBUG)
         {
-            CleverTapAPI.changeCredentials("TEST-98W-948-K74Z", "TEST-b4c-0bc");
+            CleverTapAPI.changeCredentials("TEST-your clevertap account id", "TEST-your clevertap account token");
         }
 
         //Test credentials
